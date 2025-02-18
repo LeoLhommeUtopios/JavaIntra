@@ -17,7 +17,9 @@ public interface ProductRepository extends MongoRepository<Product, ObjectId> {
     @Query("{'name': ?0}")
     List<Product> findByProductName (String name);
 
-    @Query("{'$limit' : 100}{'$skip': ?0}")
+    @Query("""
+            {'$limit' : 100}{'$skip': ?0}
+            """)
     List<Product> paginate( int skip);
 
 }
