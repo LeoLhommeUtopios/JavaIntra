@@ -5,8 +5,7 @@ Développez une application Spring Boot intégrant les technologies suivantes :
 
 - **Kafka Streams** pour la gestion des flux de données.
 - **MongoDB** pour la persistance des données.
-- **Spring MVC** pour l'exposition des API REST.
-- **WebFlux** pour la gestion réactive.
+- **WebFlux** pour l'exposition des API REST pour la gestion réactive.
 - **TestContainers** pour les tests d'intégration.
 - Respect des principes de **Clean Code**.
 
